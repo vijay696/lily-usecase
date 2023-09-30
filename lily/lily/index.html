@@ -1,0 +1,65 @@
+<!-- @author--Vijay G R -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vijay G R - Scatterplot Chart</title>
+    <!-- D3.js library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!--  external CSS file -->
+    <link rel="stylesheet" type="text/css" href="./assests/css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Vijay G R - Frontend Web Developer</h1>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <div class="divforYear">
+            <label class="labelColor"> Year - </label>
+            <span>
+                <!-- Dropdown for Year Selection -->
+                <select id="year-select">
+                    <!-- Populate options dynamically using JavaScript -->
+                </select>
+            </span>
+        </div>
+        <!-- Total Population based on the year -->
+        <div class="vijay">
+            <div id="total-population"></div>
+        </div>
+
+        <h1>Population Growth VS Density</h1>
+
+        <div class="vijay">
+            <!-- Container for Scatterplot -->
+            <div id="chart-container">
+                <!-- D3.js will render the chart here -->
+            </div>
+            <br>
+            <!-- Details Display Area -->
+            <div id="details">
+                <!-- Details will be displayed here upon hover -->
+            </div>
+
+            <br>
+            <br>
+            <div class="note">
+                <p>Different colors have been used to represent different countries</p>
+                <p>Countries coming behind the y-axis have density as NaN due to CSV format</p>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>Author @Vijay G R</p>
+        <p>ph : 8892754990</p>
+        <p>Mail Id: vijay.gr222@gmail.com</p>
+    </footer>
+    
+    <script src="/assests/js/population.js"></script>
+</body>
+</html>

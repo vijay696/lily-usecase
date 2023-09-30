@@ -1,0 +1,65 @@
+/* styles.css 
+@Author -- Vijay G R
+*/
+
+.vijay {
+    border: 2px solid rgb(10, 103, 58);
+    padding: 100px;
+}
+
+.labelColor {
+    color: black;
+    /* Set text color to black */
+}
+
+.note {
+    color: rgb(176, 72, 89);
+}
+
+.divforYear {
+    background-color: #d6d5db;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    text-emphasis-color: black;
+}
+
+
+header {
+    background-color: #3615af;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #3615af;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the dropdown */
+#year-select {
+    text-decoration-color: blue;
+    padding: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #999;
+    border-radius: 4px;
+    }
+
+/* Media query for small form-factor (<= 700px) */
+@media (max-width: 700px) {
+    .vijay {
+        padding: 20px;
+    }
+
+    .labelColor {
+        color: black;
+    }
+
+    .divforYear {
+        padding: 10px;
+    }
+}
